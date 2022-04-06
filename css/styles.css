@@ -585,6 +585,7 @@
 }
 
 .submit-btn{
+    /* position: relative; */
     width: 200px;
     height: 50px;
     padding: 10px 62px 10px 29px;
@@ -593,11 +594,17 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
+    border-radius:4px;
 }
-.submit-btn::after{
-    content: ;
+.submit-icon{
+    /* position: absolute;
+    top:50%;
+    right:50%;
+    display: block;
+    fill:red; */
+   
+}
     
-}
 /* Портофолио */
 
 .projects-section{

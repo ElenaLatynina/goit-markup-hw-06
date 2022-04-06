@@ -445,11 +445,18 @@
 
                     </div>
                 <div class="form">
-                    <h3 class="title-join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                    <form>
+                        <h3 class="title-join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
                     <label>
-                        <input type="email" placeholder="E-mail">
-                        <button class="submit-btn" type="submit">Подписаться</button>
+                        <input type="email" name="email" placeholder="E-mail">
                     </label>
+                    <button class="submit-btn" type="submit">Подписаться
+                        <svg width="24px" height="24px">
+                            <use class="submit-icon" href="./Images/symbol-defs.svg#send">
+                            </use>
+                        </svg>
+                    </button>
+                    </form>
                 </div>
             </div>
     </footer>
