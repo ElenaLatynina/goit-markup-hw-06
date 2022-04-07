@@ -67,27 +67,32 @@
                         <use href="./Images/symbol-defs.svg#close">
                         </use>
                     </svg></button>
-                    <form >
-                       <div class="modal-form">
-                        <label for="name">Имя
-                            <input type="text"name="name">
-                        </label>
-                        <label for="tel" >Телефон
-                            <input type="tel" name="tel">
-                        </label>
-                        <label for="email" >Почта
-                            <input type="email" name="email">
-                        </label>
-                        <label for="comment">Комментарий
-                            <textarea name="comment" id="" cols="" rows="10"></textarea>
-                        </label>
-                          <input type="checkbox">
-                          <label for="">Соглашаюсь с рассылкой и принимаю 
+                    <form class="form">
+                        <b class="form-title" >Оставьте свои данные, мы вам перезвоним</b>
+                       <div class="form-field">
+                        <label class="form-label" for="name" id="name">Имя</label>
+                        <input class="form-input" type="text"name="name">
+                        </div>
+                        <div class="form-field">
+                        <label class="form-label" for="tel" >Телефон</label>
+                        <input class="form-input" type="tel" name="tel" id="tel">
+                        </div>
+                        <div class="form-field">
+                        <label class="form-label" for="email" >Почта</label>
+                        <input class="form-input" class="form-input" type="email" name="email" id="email">
+                        </div>
+                        <div class="form-field"> 
+                        <label class="form-label" for="comment">Комментарий</label>
+                        <textarea name="comment" id="comment" cols="" rows="10"></textarea>
+                        </div>
+                       
+                          <input class="form-input" type="checkbox" id="policy">
+                          <label class="form-label" for="policy">Соглашаюсь с рассылкой и принимаю 
                               <a href="">Условия договора</a>
                           </label>
                         <button type="submit">Отправить
                         </button>
-                       </div>
+                       
                     </form>
                 </div>
             </div>
@@ -466,15 +471,15 @@
                         </ul>
 
                     </div>
-                <div class="form">
+                <div class="subscribe-form">
                     <form>
                         <h3 class="title-join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
                     <label>
                         <input type="email" name="email" placeholder="E-mail">
                     </label>
-                    <button class="submit-btn" type="submit">Подписаться
+                    <button class="subscribe-btn" type="submit">Подписаться
                         <svg width="24px" height="24px">
-                            <use class="submit-icon" href="./Images/symbol-defs.svg#send">
+                            <use class="subscribe-icon" href="./Images/symbol-defs.svg#send">
                             </use>
                         </svg>
                     </button>

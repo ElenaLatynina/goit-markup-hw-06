@@ -580,11 +580,11 @@
 .footer-link:focus{
      background-color:var(--accent-color);
 }
-.form{
+.subscribe-form{
     margin-left: 93px;
 }
 
-.submit-btn{
+.subscribe-btn{
     /* position: relative; */
     width: 200px;
     height: 50px;
@@ -596,7 +596,7 @@
     line-height: 1.88;
     border-radius:4px;
 }
-.submit-icon{
+.subscribe-icon{
     /* position: absolute;
     top:50%;
     right:50%;
@@ -799,8 +799,47 @@
 .modal-btn-icon:focus{
     fill:var(--accent-color);}
     
-.modal-form{
-    display: inline-flex;
+.form{
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 528px;
+    height: 581px;
+    padding: 40px 39px 40px 41px;
+    
+}
+.form-title{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+
+}
+.form-field{
+    display: block;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 10px;
+
+}
+.form-input{
+    width: 448px;
+    height: 40px;
+    margin: 0;
+    padding: 12px 15px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+}
+.form-label{
+    margin-bottom: 4px;
+    font-size: 12px;
+
 }
