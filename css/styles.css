@@ -799,3 +799,8 @@
 .modal-btn-icon:focus{
     fill:var(--accent-color);}
     
+.modal-form{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
