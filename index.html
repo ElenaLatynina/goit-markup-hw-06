@@ -83,13 +83,15 @@
                         </div>
                         <div class="form-field"> 
                         <label class="form-label" for="comment">Комментарий</label>
-                        <textarea name="comment" id="comment" cols="" rows="10"></textarea>
+                        <textarea  class="form-comment"  name="comment" id="comment" cols="" rows="10" placeholder="Введите текст"></textarea>
                         </div>
-                       
-                          <input class="form-input" type="checkbox" id="policy">
-                          <label class="form-label" for="policy">Соглашаюсь с рассылкой и принимаю 
-                              <a href="">Условия договора</a>
-                          </label>
+                       <div class="form-field">
+                           <input class="form-input" type="checkbox" id="policy">
+                        <label class="form-label" for="policy">Соглашаюсь с рассылкой и принимаю 
+                            <a href="">Условия договора</a>
+                        </label>
+                        </div>
+                          
                         <button type="submit">Отправить
                         </button>
                        
@@ -474,15 +476,15 @@
                 <div class="subscribe-form">
                     <form>
                         <h3 class="title-join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-                    <label>
-                        <input type="email" name="email" placeholder="E-mail">
-                    </label>
-                    <button class="subscribe-btn" type="submit">Подписаться
-                        <svg width="24px" height="24px">
-                            <use class="subscribe-icon" href="./Images/symbol-defs.svg#send">
-                            </use>
-                        </svg>
-                    </button>
+                    <label for="email"></label>
+                    <div class="subscribe-field"><input class="footer-input" type="email" name="email" id="email"placeholder="E-mail">
+                        <button class="subscribe-btn" type="submit">Подписаться
+                            <svg class="subscribe-icon" width="24px" height="24px">
+                                <use href="./Images/symbol-defs.svg#send">
+                                </use>
+                            </svg>
+                        </button></div>
+                    
                     </form>
                 </div>
             </div>
