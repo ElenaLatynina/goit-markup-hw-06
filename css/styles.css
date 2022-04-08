@@ -887,6 +887,23 @@
     rgba(117, 117, 117, 0.5);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    
+    margin-bottom: 20px;
+}
+.policy{
+    display: flex;
+}
+.checkbox{
+    /* appearance: none; */
 
+}
+.icon{
+    display: block;
+    width: 16px;
+    height: 15px;
+    margin: 0;
+    border: 1px solid rgba(33, 33, 33, 1);
+}
+.checkbox:checked+ .icon{
+    background-color: var(--accent-color);
+    border:transparent;
 }
