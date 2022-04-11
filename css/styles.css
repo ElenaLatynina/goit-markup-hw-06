@@ -901,9 +901,8 @@
     margin-bottom: 20px;
 }
 .policy{
-    display: block;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
 }
 .checkbox{
     appearance: none;
@@ -932,7 +931,14 @@
     background-color: var(--accent-color);
     border:var(--accent-color);
 }
+.agree-text{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
 .agree{
+    display: block;
     color:var(--accent-color);
     margin-left: 2px;
 }
